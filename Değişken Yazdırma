@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main()
+{
+	int a=5;
+	int b=7;
+	char c[]="HTML ile";
+	printf("%s web sayfasi hazirlarken %d kitaptan ve %d ornek taslaktan yararlandim",c,a,b);
+}
