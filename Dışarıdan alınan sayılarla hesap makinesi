@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+int sayi1;
+int sayi2;
+printf("Bir sayi girin :");
+scanf("%d",&sayi1);
+printf("\n Ikinci sayiyi girin : ");
+scanf("%d",&sayi2);
+int toplam=sayi1+sayi2;
+int fark=sayi1-sayi2;
+int carp=sayi1*sayi2;
+int bol=sayi1/sayi2;
+float mod=sayi1%sayi2;
+printf("\nIki sayinin toplami = %d",toplam);
+printf("\n Iki sayinin farki =%d",fark);
+printf("\nIki sayinin carpimi = %d",carp);
+printf("\n Iki sayinin bolumu =%d",bol);
+printf("\nIki sayinin mod = %f",mod);
+
+}
